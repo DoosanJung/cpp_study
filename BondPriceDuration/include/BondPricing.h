@@ -5,10 +5,10 @@
  *      Author: doosanjung
  */
 
+#pragma once
 #ifndef BONDPRICING_H_
 #define BONDPRICING_H_
 
-#pragma once
 #include <string>
 #include <sstream>
 #include "structs.h"

@@ -11,9 +11,9 @@
 #include <sstream>
 #include <vector>
 #include <cmath>
-#include "include/structs.h"
-#include "include/LinearInterpolation.h"
-#include "include/BondPricing.h"
+#include "../include/structs.h"
+#include "../include/LinearInterpolation.h"
+#include "../include/BondPricing.h"
 using namespace std;
 
 int main() {

@@ -5,10 +5,10 @@
  *      Author: doosanjung
  */
 
+#pragma once
 #ifndef INCLUDE_MONTECARLOBSM_H_
 #define INCLUDE_MONTECARLOBSM_H_
 
-#pragma once
 #include "../include/AnalyticBSM.h"
 #include "../include/PayOff.h"
 

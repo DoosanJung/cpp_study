@@ -6,8 +6,8 @@
  */
 
 
-#include "include/structs.h"
-#include "include/LinearInterpolation.h"
+#include "../include/structs.h"
+#include "../include/LinearInterpolation.h"
 
 PricingRst* bond_pricing(int n, int* curve_years, double* spot_rates, double faceValue, int matYears) {
 	if (matYears > 30)

@@ -5,10 +5,9 @@
  *      Author: doosanjung
  */
 
+#pragma once
 #ifndef INCLUDE_ANALYTICBSM_H_
 #define INCLUDE_ANALYTICBSM_H_
-
-#pragma once
 
 #define MAX(x,y) (((x)>(y)) ? (x) : (y))
 

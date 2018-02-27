@@ -5,10 +5,10 @@
  *      Author: doosanjung
  */
 
+#pragma once
 #ifndef INCLUDE_PAYOFF_H_
 #define INCLUDE_PAYOFF_H_
 
-#pragma once
 #include "../include/AnalyticBSM.h"
 
 class Payoff { //base class

@@ -5,10 +5,10 @@
  *      Author: doosanjung
  */
 
+#pragma once
 #ifndef LINEARINTERPOLATION_H_
 #define LINEARINTERPOLATION_H_
 
-#pragma once
 #include "structs.h"
 #include <cmath>
 
