@@ -5,10 +5,10 @@
  *      Author: doosanjung
  */
 
+#pragma once
 #ifndef STRUCTS_H_
 #define STRUCTS_H_
 
-#pragma once
 #include <string>
 using namespace std;
 
