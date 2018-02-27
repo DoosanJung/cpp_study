@@ -21,10 +21,10 @@ int main() {
 	std::cout << "Analytic B-S-M Price = " << anal_price << std::endl;
 	std::cout << "===============================" << std::endl;
 
-	// Monte-Carlo Simulation Price of Black-Scholes-Merton option pricing model
 	PlainVanillaPayoff payoff(k, type);
 	DigitalPayoff payoff1(k, type);
 
+	// Monte-Carlo Simulation Price of Black-Scholes-Merton option pricing model
 	unsigned int numOfSim = 1000000;
 	double mc_price_pv = monte_carlo_price(s, payoff, r, q, t, sigma, numOfSim);
 	double mc_price_di = monte_carlo_price(s, payoff1, r, q, t, sigma, numOfSim);
